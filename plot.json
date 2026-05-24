@@ -1,0 +1,196 @@
+{
+ "geoms": {
+ "geom1_point_p": {
+ "geom": "point",
+"classed": "geom1_point_p",
+"aes": {
+"x": "x",
+"y": "y"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom1_point_p_chunk1.tsv": {
+ "bytes":       46,
+"rows": 10 
+} 
+} 
+} 
+},
+"selectors": [],
+"plots": {
+ "p": {
+ "panel_margin_lines":     0.25,
+"legend": {},
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#EBEBEB",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": [],
+"grid_major": {
+ "colour": "#FFFFFF",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      2.5,
+       5,
+     7.5,
+      10 
+] 
+],
+"y": [
+ [
+      2.5,
+       5,
+     7.5,
+      10 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FFFFFF",
+"size":     0.25,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+     1.25,
+     2.5,
+    3.75,
+       5,
+    6.25,
+     7.5,
+    8.75,
+      10 
+] 
+],
+"y": [
+ [
+     1.25,
+     2.5,
+    3.75,
+       5,
+    6.25,
+     7.5,
+    8.75,
+      10 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+      2.5,
+       5,
+     7.5,
+      10 
+],
+"xlab": [
+ "2.5",
+"5.0",
+"7.5",
+"10.0" 
+],
+"xrange": [     0.55,    10.45 ],
+"xline": true,
+"xticks": true,
+"y": [
+      2.5,
+       5,
+     7.5,
+      10 
+],
+"ylab": [
+ "2.5",
+"5.0",
+"7.5",
+"10.0" 
+],
+"yrange": [     0.55,    10.45 ],
+"yline": true,
+"yticks": true 
+},
+"xtitle": "x",
+"strip_text_xsize": "11pt",
+"xsize": "11pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "y",
+"strip_text_ysize": "11pt",
+"ysize": "11pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "2.5",
+"5.0",
+"7.5",
+"10.0" 
+],
+"ylabs": [
+ "2.5",
+"5.0",
+"7.5",
+"10.0" 
+],
+"title_size": "13.2pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_point_p" 
+] 
+} 
+},
+"source": "https://github.com/animint/animint2/tree/master/tests/testthat/test-compiler-ghpages.R",
+"title": "one to ten" 
+}
